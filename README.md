@@ -24,7 +24,7 @@ The exact driver binary is included under driver/pmxdrv.sys.
 
 The driver exposes functionality that allows a caller to request mappings of physical memory into user-mode address space. The research in this repository focuses on understanding that primitive and demonstrating its security impact.
 
-## Proof-of-Concepts
+## Proof-of-Concept
 
 Two PoCs were developed:
 
