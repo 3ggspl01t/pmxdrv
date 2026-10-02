@@ -114,13 +114,13 @@ Both PoCs are maintained as independent Visual Studio C++ solutions.
 Open the appropriate solution:
 
 ```text
-poc1-physical-memory-rw\pmxdrv_poc1.sln
+poc1-physical-memory-rw\pmxdrv_poc1.slnx
 ```
 
 or:
 
 ```text
-poc2-token-replacement\pmxdrv_poc2.sln
+poc2-token-replacement\pmxdrv_poc2.slnx
 ```
 
 Build for:
@@ -146,16 +146,14 @@ Project Properties
 set:
 
 ```text
-Not Set
+Character Set : Use Multi-Byte Character Set
 ```
 
 The equivalent project-file setting is:
 
 ```xml
-<CharacterSet>NotSet</CharacterSet>
+<CharacterSet>MultiByte</CharacterSet>
 ```
-
-`Use Multi-Byte Character Set` is also compatible with the current narrow-character implementation.
 
 The source uses narrow-character strings and ANSI Win32 APIs such as `CreateFileA()`. Enabling `UNICODE` / `_UNICODE` without adapting the corresponding strings and APIs may result in type mismatches or compilation errors.
 
@@ -176,12 +174,12 @@ pmxdrv/
 │   └── pmxdrv.sys
 │
 ├── poc1-physical-memory-rw/
-│   ├── pmxdrv_poc1.sln
+│   ├── pmxdrv_poc1.slnx
 │   ├── pmxdrv_poc1.vcxproj
 │   └── pmxdrv_poc1.cpp
 │
 └── poc2-token-replacement/
-    ├── pmxdrv_poc2.sln
+    ├── pmxdrv_poc2.slnx
     ├── pmxdrv_poc2.vcxproj
     └── pmxdrv_poc2.cpp
 ```
