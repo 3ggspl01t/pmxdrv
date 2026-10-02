@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+
+# Visual Studio user / workspace files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Per-user Visual C++ project settings
+*.vcxproj.user
+
+# Visual Studio Solution Explorer organization only
+*.vcxproj.filters
+
+# Build output directories
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/Win32/
+
+# Compiled binaries and intermediate files
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pch
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+
+# Debug symbols
+*.pdb
+
+# MSBuild / Visual Studio build state
+*.tlog
+*.lastbuildstate
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+~$*
+
+# Crash / dump files
+*.dmp
+*.mdmp
+
+# Kernel drivers
+# Ignore any unrelated .sys files by default.
+*.sys
+
+# Preserve the exact pmxdrv.sys research sample included with this repository.
+!driver/
+!driver/pmxdrv.sys
