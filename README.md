@@ -65,7 +65,7 @@ This PoC provides the baseline primitive used by PoC #2.
 
 Demonstration of the `pmxdrv.sys` physical-memory mapping primitive used to perform controlled physical-memory read/write operations from user mode.
 
-https://github.com/user-attachments/assets/1fa51b9d-7867-4b5a-a247-7ac416b14fa0
+https://github.com/user-attachments/assets/a6533490-cd45-44d1-968c-dfa1802ab8dc
 
 ## PoC #2 — SYSTEM token replacement
 
@@ -105,7 +105,7 @@ These offsets are build-specific and should be independently verified before ada
 
 End-to-end demonstration of PoC #2 locating validated `EPROCESS` targets in Windows-described physical memory, replacing the parent process token, and demonstrating `NT AUTHORITY\SYSTEM`.
 
-https://github.com/user-attachments/assets/450e5c36-5d32-400e-87d1-d4a93a539083
+https://github.com/user-attachments/assets/2e1e5dd1-9e56-45ab-a0a6-a11a28d1e245
 
 ## Building
 
